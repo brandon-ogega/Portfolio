@@ -58,8 +58,15 @@ nav a:hover{
     background-color: #1f1f1f;
     padding: 20px 200px 20px 200px;
 }
+@keyframes fadein {
+    0%{opacity:0;transform: translateX(-20px)}
+    25%{opacity:0.1;transform: translateX(-30px)}
+    50%{opacity:0.3;transform: translateX(-50px)}
+    100%{opacity:1;transform: translateX(0)}
+}
 .projects-done{
     display: flex;
+    animation: fadein 5s forwards;
 }
 .project-card{
     background-color: #c3c8f9;
