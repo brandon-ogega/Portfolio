@@ -1,0 +1,135 @@
+body{
+    background:black;
+    color: white;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 20px 200px;
+    background-color: #1f1f1f;
+    position: sticky;
+    top: -1px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+    color: lightgray;
+    padding-right: 24px;
+}
+nav a:hover{
+    color: #75FB4C;
+}
+#about{
+    display: flex;
+    height: 60vh;
+    margin: auto;
+    color: #7d1ad9;
+    justify-content: space-between;
+    padding:20px 200px 20px 200px;
+}
+#about img{
+    width:200% ;
+    height: 200%;
+    margin: auto;
+    padding-left: 30px;
+}
+.about-image{
+    width:100vw;
+    margin: auto;
+    padding-right:20px;
+}
+.my-name{
+    font-size: 45px;
+}
+.bio{
+   font-size:28px;
+    color: lightgray;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;
+}
+#projects{
+    height: 60vh;
+    background-color: #1f1f1f;
+    padding: 20px 200px 20px 200px;
+}
+.projects-done{
+    display: flex;
+}
+.project-card{
+    background-color: #c3c8f9;
+    border-radius:12px;
+    width: 25%;
+    margin: 20px;
+    padding: 20px 10px;
+    color: black;
+}
+.project-title{
+    color: black;
+}
+.project-card p{
+    padding-bottom: 4px;
+    padding-top: 18px;
+}
+.project-link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 25px auto 30px;
+}
+.project-image-section{
+    display: flex;
+    width: 5vw;
+    height: 5vh;
+}
+.project-image-section h1{
+    padding-left: 10px;
+}
+#contact-me{
+    padding: 18px 180px 18px 180px;
+    background-color: #000;
+    height: 20%;
+}
+.my-contact{
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    color: #7d1ad9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icons a:before{
+    color: red;
+}
+
+.icons .fa-brands a:hover{
+    color:black;
+}
+.button{
+    margin-left: 7%;
+    margin-top: 4%;
+    padding: 78px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+footer{
+    background-color: #4d5a53;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
